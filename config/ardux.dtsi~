@@ -52,12 +52,11 @@
  *  ONLY ENABLE ONE OF THESE
 *****************************************/
 //#define ARDUX_RIGHT 1
-#define ARDUX_LEFT 1
+//#define ARDUX_LEFT 1
 //#define ARDUX_BIG 1
 // If you use COLEMAK as your standard keyboard layout, you may want this
 //     This define will make base ardux keys and N more in line with COLEMAK
 //#define ARDUX_COLEMAK 1
-#define ARDUX_ATRSENIO 1
 
 /*****************************************
  * Define key positions used for combos
@@ -175,7 +174,7 @@
 #endif
 
 /*****************************************
- * Define base layer chars for 'standard ARDUX' or 'COLEMAK' inspired or 'ATRSENIO' (you can add more by following the pattern below)
+ * Define base layer chars for 'standard ARDUX' or 'COLEMAK' inspired (you can add more by following the pattern below)
  * Turn on the ARDUX_COLEMAK definition above if you want this change
  *****************************************/
 #define ARDUX_BASE_A A
@@ -194,17 +193,6 @@
 #define ARDUX_BASE_S A
 #define ARDUX_BASE_E N
 #define ARDUX_BASE_Y E
-#define ARDUX_BASE_I I
-#define ARDUX_BASE_O O
-#define ARDUX_COMBO_N Y
-#endif
-#if ARDUX_ATRSENIO
-#define ARDUX_BASE_A A
-#define ARDUX_BASE_R T
-#define ARDUX_BASE_T R
-#define ARDUX_BASE_S S
-#define ARDUX_BASE_E E
-#define ARDUX_BASE_Y N
 #define ARDUX_BASE_I I
 #define ARDUX_BASE_O O
 #define ARDUX_COMBO_N Y
